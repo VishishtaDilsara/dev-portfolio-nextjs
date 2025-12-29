@@ -1,10 +1,16 @@
 "use client";
 import React from "react";
+import { DiFirebase } from "react-icons/di";
+import { FaAws, FaDocker, FaJava, FaPython } from "react-icons/fa";
+import { FaC, FaFlutter } from "react-icons/fa6";
 import {
+  SiFirebase,
+  SiGithubactions,
   SiJavascript,
   SiNextdotjs,
   SiNodedotjs,
   SiReact,
+  SiSupabase,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
@@ -12,6 +18,18 @@ import {
 import Tilt from "react-parallax-tilt";
 
 const skills = [
+  {
+    name: "AWS",
+    icon: <FaAws />,
+  },
+  {
+    name: "Docker",
+    icon: <FaDocker />,
+  },
+  {
+    name: "Github Actions",
+    icon: <SiGithubactions />,
+  },
   {
     name: "JavaScript",
     icon: <SiJavascript />,
@@ -35,6 +53,27 @@ const skills = [
   {
     name: "TypeScript",
     icon: <SiTypescript />,
+  },
+  {
+    name: "Flutter",
+    icon: <FaFlutter />,
+  },
+  {
+    name: "Java",
+    icon: <FaJava />,
+  },
+  {
+    name: "Python",
+    icon: <FaPython />,
+  },
+
+  {
+    name: "Firebase",
+    icon: <SiFirebase />,
+  },
+  {
+    name: "Supabase",
+    icon: <SiSupabase />,
   },
 ];
 

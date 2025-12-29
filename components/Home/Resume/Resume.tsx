@@ -3,6 +3,7 @@ import ResumeCard from "./ResumeCard";
 import {
   FaAws,
   FaChartLine,
+  FaCodeBranch,
   FaCodepen,
   FaDocker,
   FaGraduationCap,
@@ -50,6 +51,11 @@ const Resume = () => {
               Icon={FaAws}
               role="Cloud Engineer"
               description="AWS Cloud Quest - Practitioner Badge &nbsp;|&nbsp; Aviatrix Multicloud Certified Badge"
+            />
+            <ResumeCard
+              Icon={FaCodeBranch}
+              role="Open Source Contributor"
+              description="Contributed to multiple open-source projects on GitHub, collaborating on real-world codebases and improving features and fixes."
             />
           </div>
         </div>
