@@ -1,10 +1,20 @@
 import React from "react";
 import ResumeCard from "./ResumeCard";
-import { FaAws, FaCodepen, FaDocker, FaReact } from "react-icons/fa";
+import {
+  FaAws,
+  FaChartLine,
+  FaCodepen,
+  FaDocker,
+  FaGraduationCap,
+  FaReact,
+  FaSchool,
+  FaUniversity,
+} from "react-icons/fa";
 import { BsDatabase } from "react-icons/bs";
 import { BiBadge } from "react-icons/bi";
 import { FaFlutter } from "react-icons/fa6";
 import { VscAzureDevops } from "react-icons/vsc";
+import { MdComputer } from "react-icons/md";
 
 const Resume = () => {
   return (
@@ -55,22 +65,28 @@ const Resume = () => {
             data-aos-delay="300"
           >
             <ResumeCard
-              Icon={BiBadge}
-              role="Design Institute"
-              date="Jan 2023 - Dec 2024"
-              description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              Icon={FaSchool}
+              role="Ordinary Level"
+              date="Dec 2018"
+              description="Successfully completed Ordinary Level examinations in English medium with 8 As and 1 B "
             />
             <ResumeCard
-              Icon={FaReact}
-              role="Bachelor of Computer Science"
-              date="Jan 2019 - Dec 2022"
-              description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
+              Icon={FaChartLine}
+              role="Advanced Level"
+              date="Jan 2019 - Feb 2022"
+              description="Successfully completed Advanced Level examinations in the Mathematics stream with grades of 1 A, 1 B, and 1 C."
             />
             <ResumeCard
-              Icon={BsDatabase}
-              role="Certificate in DM"
-              date="Jan 2016 - Jan 2019"
-              description="Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text"
+              Icon={MdComputer}
+              role="Diploma in Information Technology"
+              date="May 2022 - May 2023"
+              description="Successfully completed the Assured Diploma in Information Technology (DITEC) at ESOFT Metro Campus."
+            />
+            <ResumeCard
+              Icon={FaGraduationCap}
+              role="BComp(Hons.) in Software Engineering"
+              date="June 2023 - Present"
+              description="Currently pursuing a Bachelor of Computing (Hons.) in Software Engineering at the University of Sri Jayewardenepura."
             />
           </div>
         </div>
