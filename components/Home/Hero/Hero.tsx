@@ -24,7 +24,7 @@ const Hero = () => {
         </h1>
         <h2 className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center">
           Hi! I'm Vishishta - A Passionate
-          <span className="text-cyan-200 font-bold">
+          <span className="text-cyan-300 font-bold">
             <Typewriter
               options={{
                 strings: [
@@ -50,7 +50,7 @@ const Hero = () => {
   flex items-center gap-3
   shadow-[0_0_0_0_rgba(34,211,238,0.6)]
   hover:shadow-[0_0_0_8px_rgba(34,211,238,0.15)]
-  active:scale-95"
+  active:scale-95 cursor-pointer"
         >
           <span className="tracking-wide">See my Work</span>
 
