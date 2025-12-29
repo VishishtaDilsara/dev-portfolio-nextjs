@@ -6,7 +6,11 @@ import { BiDownload } from "react-icons/bi";
 import { FaCode } from "react-icons/fa";
 import { HiBars3BottomRight } from "react-icons/hi2";
 
-const Nav = () => {
+type Props = {
+  openNav: () => void;
+};
+
+const Nav = ({ openNav }: Props) => {
   const [navBg, setNavBg] = useState(false);
   useEffect(() => {
     const handler = () => {
@@ -22,7 +26,7 @@ const Nav = () => {
     <div
       className={`transition-all ${
         navBg ? "bg-[#0f142ed9] shadow-md " : "fixed"
-      } duration-200 h-[12vh] z-10000 fixed w-full`}
+      } duration-200 h-[12vh] z-[900] fixed w-full`}
     >
       <div className="flex items-center h-full justify-between w-[90%] mx-auto">
         <div className="flex items-center space-x-2">
@@ -53,7 +57,10 @@ const Nav = () => {
             <span> Download CV</span>
           </button>
           {/* Burger Menu */}
-          <HiBars3BottomRight className="w-8 h-8 cursor-pointer text-white lg:hidden" />
+          <HiBars3BottomRight
+            onClick={openNav}
+            className="w-8 h-8 cursor-pointer text-white lg:hidden"
+          />
         </div>
       </div>
     </div>
