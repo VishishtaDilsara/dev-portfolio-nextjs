@@ -100,7 +100,12 @@ const Contact = () => {
         </div>
 
         {/* Right Side - Contact Form */}
-        <div className="md:p-10 p-5 bg-[#131332] rounded-lg">
+        <div
+          className="md:p-10 p-5 bg-[#131332] rounded-lg"
+          data-aos="zoom-in"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="0"
+        >
           <input
             type="text"
             placeholder="Name"

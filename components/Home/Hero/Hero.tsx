@@ -17,12 +17,21 @@ const Hero = () => {
           width={150}
           height={150}
           className="rounded-full border-8 border-[#0c0c48aa]"
+          data-aos="fade-up"
         />
-        <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold tracking-wide">
+        <h1
+          data-aos="fade-up"
+          data-aos-delay="200"
+          className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold tracking-wide"
+        >
           Creating web Products, <br /> brands,{" "}
           <span className="text-cyan-300">and experiences.</span>{" "}
         </h1>
-        <h2 className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center">
+        <h2
+          data-aos="fade-up"
+          data-aos-delay="400"
+          className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center"
+        >
           Hi! I'm Vishishta - A Passionate
           <span className="text-cyan-300 font-bold">
             <Typewriter
@@ -42,6 +51,8 @@ const Hero = () => {
           </span>
         </h2>
         <button
+          data-aos="fade-up"
+          data-aos-delay="600"
           className="group mt-8 px-10 py-4 rounded-full text-base sm:text-lg font-semibold
   text-cyan-300 border-2 border-cyan-400
   bg-transparent

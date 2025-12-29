@@ -9,6 +9,9 @@ const Blog = () => {
       </h1>
 
       <div
+        data-aos="zoom-in"
+        data-aos-anchor-placement="top-center"
+        data-aos-delay="100"
         className="w-[90%] sm:w-[80%] xl:w-[70%] mx-auto mt-16
         grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10"
       >
