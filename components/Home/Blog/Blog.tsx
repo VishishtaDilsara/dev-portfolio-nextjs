@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 
 const Blog = () => {
   return (
-    <div className="pt-16 pb-16">
+    <section id="blogs" className="scroll-mt-[12vh] pt-16 pb-16">
       <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
         My latest <span className="text-cyan-300">Blogs</span>
       </h1>
@@ -36,7 +36,7 @@ const Blog = () => {
           stack={["React", "MongoDB", "Express.js"]}
         />
       </div>
-    </div>
+    </section>
   );
 };
 
