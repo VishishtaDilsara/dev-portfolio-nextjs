@@ -51,10 +51,16 @@ const Nav = ({ openNav }: Props) => {
         </div>
 
         <div className="flex items-center space-x-4">
-          <button className="px-6 py-2.5 border border-white text-white rounded-md hover:bg-cyan-300 hover:border-cyan-300 hover:text-black transition-all duration-200 flex items-center justify-center cursor-pointer">
+          <a
+            href="/Vishishta_cv_2.pdf"
+            download
+            className="px-6 py-2.5 border border-white text-white rounded-md
+  hover:bg-cyan-300 hover:border-cyan-300 hover:text-black
+  transition-all duration-200 flex items-center justify-center cursor-pointer"
+          >
             <BiDownload className="w-5 h-5 mr-2" />
             <span>Download CV</span>
-          </button>
+          </a>
 
           <HiBars3BottomRight
             onClick={openNav}
