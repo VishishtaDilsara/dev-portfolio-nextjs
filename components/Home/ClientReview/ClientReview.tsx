@@ -35,7 +35,7 @@ const ClientReview = () => {
           responsive={responsive}
           infinite
           autoPlay
-          autoPlaySpeed={4000}
+          autoPlaySpeed={5000}
           pauseOnHover={false}
           shouldResetAutoplay={true}
           draggable={true}
