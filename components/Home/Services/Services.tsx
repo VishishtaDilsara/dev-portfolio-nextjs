@@ -14,7 +14,7 @@ const Services = () => {
           <ServiceCard
             icon="/images/s1.png"
             name="UI and UX"
-            description="Designing interfaces that are intuitive, efficient and enjoyable to use"
+            description="Designing intuitive interfaces that focus on clarity, usability, and user satisfaction"
           />
         </div>
 
@@ -22,7 +22,7 @@ const Services = () => {
           <ServiceCard
             icon="/images/s2.png"
             name="Web and Mobile App"
-            description="Designing interfaces that are intuitive, efficient and enjoyable to use"
+            description="Building responsive web and mobile applications with performance and usability in mind"
           />
         </div>
 
@@ -30,7 +30,7 @@ const Services = () => {
           <ServiceCard
             icon="/images/s3.png"
             name="Design & Creativity"
-            description="Designing interfaces that are intuitive, efficient and enjoyable to use"
+            description="Creating visually engaging designs that communicate ideas clearly and effectively"
           />
         </div>
 
@@ -38,7 +38,7 @@ const Services = () => {
           <ServiceCard
             icon="/images/s4.png"
             name="Development"
-            description="Designing interfaces that are intuitive, efficient and enjoyable to use"
+            description="Developing scalable and maintainable solutions using modern development practices"
           />
         </div>
       </div>
