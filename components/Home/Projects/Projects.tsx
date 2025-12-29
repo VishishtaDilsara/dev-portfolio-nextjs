@@ -17,7 +17,7 @@ const Projects = () => {
         >
           <ProjectCard
             title="Modern Finance Dashboard UI"
-            image="/images/p1.jpg"
+            image="/images/pr1.png"
             description="This is a sample project done by me"
             techStack={["React", "Node.js", "MongoDB", "Express.js"]}
             githubUrl="https://github.com/VishishtaDilsara/noxium-portfolio.git"
@@ -30,7 +30,7 @@ const Projects = () => {
         >
           <ProjectCard
             title="E-commerce Website"
-            image="/images/p2.jpg"
+            image="/images/Pr2.png"
             description="This is a sample project done by me"
             techStack={["React", "Node.js", "MongoDB", "Express.js"]}
             githubUrl="https://github.com/VishishtaDilsara/noxium-portfolio.git"
@@ -43,7 +43,7 @@ const Projects = () => {
         >
           <ProjectCard
             title="Weather App"
-            image="/images/p3.jpg"
+            image="/images/project3.png"
             description="This is a sample project done by me"
             techStack={["React", "Node.js", "MongoDB", "Express.js"]}
             githubUrl="https://github.com/VishishtaDilsara/noxium-portfolio.git"
