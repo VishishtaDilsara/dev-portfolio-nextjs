@@ -7,7 +7,7 @@ const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
   const pathname = usePathname();
 
-  // 1️⃣ Handle refresh → go to top + remove hash
+  // Handle refresh
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "auto" });
 
@@ -16,7 +16,7 @@ const ScrollToTop = () => {
     }
   }, [pathname]);
 
-  // 2️⃣ Toggle button visibility on scroll
+  // Toggle button visibility on scroll
   useEffect(() => {
     const toggleVisibility = () => {
       setIsVisible(window.scrollY > 300);
@@ -26,7 +26,7 @@ const ScrollToTop = () => {
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 
-  // 3️⃣ Button click scroll
+  // Button click scroll
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,

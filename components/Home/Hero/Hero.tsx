@@ -12,34 +12,37 @@ const Hero = () => {
       <ParticlesHero />
       <div className="relative z-10 flex flex-col items-center">
         <Image
-          src="/images/s1.jpg"
+          src="/images/s2.jpg"
           alt="hero"
           width={150}
           height={150}
-          className="rounded-full border-8 border-[#0c0c48aa]"
+          className="w-[150px] h-[150px] rounded-full object-cover scale-110 border-8 border-[#0c0c48aa]"
           data-aos="fade-up"
         />
+
         <h1
           data-aos="fade-up"
           data-aos-delay="200"
           className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold tracking-wide"
         >
-          Creating web Products, <br /> brands,{" "}
-          <span className="text-cyan-300">and experiences.</span>{" "}
+          Hi, I'm <br /> Vishishta{" "}
+          <span className="text-cyan-300">Dilsara</span>{" "}
         </h1>
         <h2
           data-aos="fade-up"
           data-aos-delay="400"
           className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center"
         >
-          Hi! I'm Vishishta - A Passionate
+          A Passionate
           <span className="text-cyan-300 font-bold">
             <Typewriter
               options={{
                 strings: [
-                  "FullStack Developer",
-                  "Devops Enthusiast",
-                  "Cloud Enthusiast",
+                  "Full Stack Developer",
+                  "DevOps Enthusiast",
+                  "Cloud Computing Enthusiast",
+                  "Open Source Contributor",
+                  "Tech Blogger",
                 ],
                 autoStart: true,
                 loop: true,
@@ -51,6 +54,7 @@ const Hero = () => {
           </span>
         </h2>
         <button
+          onClick={() => (window.location.href = "/#projects")}
           data-aos="fade-up"
           data-aos-delay="600"
           className="group mt-8 px-10 py-4 rounded-full text-base sm:text-lg font-semibold
