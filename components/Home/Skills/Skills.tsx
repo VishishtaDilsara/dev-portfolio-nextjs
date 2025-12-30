@@ -4,14 +4,18 @@ import { DiFirebase } from "react-icons/di";
 import { FaAws, FaDocker, FaJava, FaPython } from "react-icons/fa";
 import { FaC, FaFlutter } from "react-icons/fa6";
 import {
+  SiCnn,
   SiFirebase,
   SiGithubactions,
   SiJavascript,
+  SiKeras,
   SiNextdotjs,
   SiNodedotjs,
+  SiNumpy,
   SiReact,
   SiSupabase,
   SiTailwindcss,
+  SiTensorflow,
   SiTypescript,
 } from "react-icons/si";
 
@@ -74,6 +78,18 @@ const skills = [
   {
     name: "Supabase",
     icon: <SiSupabase />,
+  },
+  {
+    name: "TensorFlow",
+    icon: <SiTensorflow />,
+  },
+  {
+    name: "Numpy",
+    icon: <SiNumpy />,
+  },
+  {
+    name: "Keras",
+    icon: <SiKeras />,
   },
 ];
 

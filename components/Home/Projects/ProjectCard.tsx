@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 type Props = {
   title: string;
@@ -8,6 +8,7 @@ type Props = {
   techStack: string[];
   githubUrl: string;
   image: string;
+  demoUrl?: string;
 };
 
 const ProjectCard = ({
@@ -16,6 +17,7 @@ const ProjectCard = ({
   techStack,
   githubUrl,
   image,
+  demoUrl,
 }: Props) => {
   return (
     <div
@@ -62,17 +64,34 @@ const ProjectCard = ({
         <div className="mt-6 flex items-center justify-between">
           <span className="text-sm text-gray-500">View Source</span>
 
-          <a
-            href={githubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-10 h-10 rounded-full
+          <div className="flex gap-2">
+            {demoUrl && (
+              <a
+                href={demoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full
+          flex items-center justify-center
+          bg-white/10 hover:bg-cyan-400/20
+          transition-all duration-300"
+              >
+                {/* Use a demo icon if you want, GitHub kept for now */}
+                <FaExternalLinkAlt className="w-5 h-5 text-white" />
+              </a>
+            )}
+
+            <a
+              href={githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 rounded-full
             flex items-center justify-center
             bg-white/10 hover:bg-cyan-400/20
             transition-all duration-300"
-          >
-            <FaGithub className="w-5 h-5 text-white" />
-          </a>
+            >
+              <FaGithub className="w-5 h-5 text-white" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
