@@ -106,25 +106,50 @@ const Contact = () => {
           </div>
 
           <div className="flex items-center mt-10 space-x-4">
-            <div className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-400/10">
+            <a
+              href="https://web.facebook.com/vishishta.dilsara?_rdc=1&_rdr#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-400/10"
+            >
               <FaFacebookF className="w-5 h-5 text-gray-300" />
-            </div>
+            </a>
 
-            <div className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-400/10">
+            <a
+              href="https://www.linkedin.com/in/vishishta-dilsara-14059a348/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-400/10"
+            >
               <FaLinkedin className="w-5 h-5 text-gray-300" />
-            </div>
+            </a>
 
-            <div className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-400/10">
+            <a
+              href="https://www.instagram.com/_vish__x___"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-400/10"
+            >
               <FaInstagram className="w-5 h-5 text-gray-300" />
-            </div>
+            </a>
 
-            <div className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-400/10">
+            <a
+              href="https://github.com/VishishtaDilsara"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-400/10"
+            >
               <FaGithub className="w-5 h-5 text-gray-300" />
-            </div>
+            </a>
 
-            <div className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-400/10">
+            <a
+              href="https://www.behance.net/vishishdilsara"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-400/10"
+            >
               <FaBehance className="w-5 h-5 text-gray-300" />
-            </div>
+            </a>
           </div>
         </div>
 
