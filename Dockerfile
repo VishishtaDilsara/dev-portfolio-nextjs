@@ -1,0 +1,27 @@
+FROM node:20-alpine AS build
+WORKDIR /app
+
+COPY package*.json ./
+RUN npm ci
+
+COPY . .
+
+ARG NEXT_PUBLIC_EMAILJS_SERVICE_ID
+ARG NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
+ARG NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+
+ENV NEXT_PUBLIC_EMAILJS_SERVICE_ID=$NEXT_PUBLIC_EMAILJS_SERVICE_ID
+ENV NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=$NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
+ENV NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=$NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+
+RUN npm run build
+
+FROM nginx:alpine
+WORKDIR /usr/share/nginx/html
+RUN rm -rf *
+
+COPY --from=build /app/out .
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

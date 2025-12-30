@@ -1,8 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   reactCompiler: true,
+
+  // REQUIRED for Nginx / static hosting
+  output: "export",
+
+  // REQUIRED to avoid next/image runtime dependency
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
