@@ -31,7 +31,7 @@ const Home = () => {
       <Resume />
       <Projects />
       <Skills />
-      <ClientReview />
+      {/* <ClientReview /> */}
       <Blog />
       <Contact />
     </div>

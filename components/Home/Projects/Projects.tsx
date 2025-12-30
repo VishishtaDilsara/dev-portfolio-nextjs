@@ -82,7 +82,7 @@ const Projects = () => {
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
-          data-aos-delay="300"
+          data-aos-delay="400"
         >
           <ProjectCard
             title="E-Commerce Mobile Application"
@@ -95,7 +95,7 @@ const Projects = () => {
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
-          data-aos-delay="300"
+          data-aos-delay="500"
         >
           <ProjectCard
             title="Weather Forecast Mobile Application"
@@ -108,7 +108,7 @@ const Projects = () => {
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
-          data-aos-delay="300"
+          data-aos-delay="600"
         >
           <ProjectCard
             title="Skill Finder Mobile Application"
@@ -121,7 +121,7 @@ const Projects = () => {
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
-          data-aos-delay="300"
+          data-aos-delay="700"
         >
           <ProjectCard
             title="Font Detector Chrome Extension"
@@ -134,7 +134,7 @@ const Projects = () => {
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
-          data-aos-delay="300"
+          data-aos-delay="800"
         >
           <ProjectCard
             title="Open Source Contribution 1 - MiroTalk"
@@ -153,7 +153,7 @@ const Projects = () => {
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
-          data-aos-delay="300"
+          data-aos-delay="900"
         >
           <ProjectCard
             title="Open Source Contribution 2 - MiroTalk"

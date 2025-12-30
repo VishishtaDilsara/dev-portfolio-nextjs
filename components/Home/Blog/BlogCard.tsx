@@ -8,9 +8,10 @@ type Props = {
   title: string;
   date: string;
   stack: string[];
+  link: string;
 };
 
-const BlogCard = ({ image, title, date, stack }: Props) => {
+const BlogCard = ({ image, title, date, stack, link }: Props) => {
   return (
     <div
       className="h-full rounded-2xl overflow-hidden
@@ -54,7 +55,9 @@ const BlogCard = ({ image, title, date, stack }: Props) => {
         {/* Read More */}
         <div className="mt-auto pt-6 border-t border-white/10">
           <Link
-            href="/"
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
             className="group flex items-center justify-between text-cyan-400 text-sm font-medium"
           >
             <div className="flex items-center gap-3">

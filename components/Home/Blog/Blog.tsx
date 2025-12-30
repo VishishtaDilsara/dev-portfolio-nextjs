@@ -16,24 +16,32 @@ const Blog = () => {
         grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10"
       >
         <BlogCard
-          image="/images/b1.jpg"
-          title="How to Build a Simple Portfolio Website with Next.js"
-          date="05 July 2025"
-          stack={["React", "Node.js", "MongoDB"]}
+          image="/images/b7.jpg"
+          title="AWS Architecture Diagrams: Icons and Tools Explained"
+          date="24 Dec 2025"
+          stack={["AWS Icons", "Architecture Diagrams", "Cloud Computing"]}
+          link="https://www.linkedin.com/posts/vishishta-dilsara-14059a348_aws-awsicons-architecture-activity-7409579835565465600-uBSZ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFbwmUABo_7_6hfkW56yyiirbG3SiLcV-7c"
         />
-
         <BlogCard
-          image="/images/b2.jpg"
-          title="Blog Title 2"
-          date="05 July 2025"
-          stack={["React", "Node.js", "Express.js"]}
+          image="/images/b4.jpg"
+          title="TensorFlow vs NumPy: Understanding the Key Differences"
+          date="04 Dec 2025"
+          stack={["Tensorflow", "Numpy", "GPU"]}
+          link="https://www.linkedin.com/posts/vishishta-dilsara-14059a348_%E0%B6%87%E0%B6%BA-numpy-%E0%B7%80%E0%B6%B1%E0%B7%80%E0%B6%A7-tensors-%E0%B6%B4%E0%B7%80%E0%B6%A0%E0%B6%A0-%E0%B6%9A%E0%B6%BB%E0%B6%B1%E0%B6%B1-activity-7402235314821636097--2No?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFbwmUABo_7_6hfkW56yyiirbG3SiLcV-7c"
         />
-
         <BlogCard
-          image="/images/b3.jpg"
-          title="Blog Title 3"
-          date="05 July 2025"
-          stack={["React", "MongoDB", "Express.js"]}
+          image="/images/b5.jpg"
+          title="What Caused the AWS us-east-1 Outage?"
+          date="20 Oct 2025"
+          stack={["AWS", "Cloud Computing", "Outage Analysis"]}
+          link="https://www.linkedin.com/posts/vishishta-dilsara-14059a348_the-aws-outage-amazon-web-services-%E0%B6%91%E0%B7%84%E0%B6%B8-activity-7386065452655087616-bl4d?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFbwmUABo_7_6hfkW56yyiirbG3SiLcV-7c"
+        />
+        <BlogCard
+          image="/images/b6.jpg"
+          title="How Provider Works in Flutter Applications"
+          date="19 Oct 2025"
+          stack={["Flutter", "Provider", "State Management"]}
+          link="https://www.linkedin.com/posts/vishishta-dilsara-14059a348_flutter-providers-%E0%B6%85%E0%B6%AF-%E0%B6%85%E0%B6%B4-%E0%B6%9A%E0%B6%AD-%E0%B6%9A%E0%B6%BB%E0%B6%B8-flutter-activity-7385637062600974336-N1mc?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFbwmUABo_7_6hfkW56yyiirbG3SiLcV-7c"
         />
       </div>
     </section>
