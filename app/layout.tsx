@@ -13,6 +13,11 @@ const font = Inter({
 
 export const metadata: Metadata = {
   title: "Vishishta's Portfolio ",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   description:
     "A portfolio website built with Next.js showcasing projects and skills.",
 };
