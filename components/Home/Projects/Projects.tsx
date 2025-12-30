@@ -17,7 +17,7 @@ const Projects = () => {
         >
           <ProjectCard
             title="Full-Stack MERN E-Commerce Platform for Beauty Glow"
-            image="/images/pr1.png"
+            image="/images/Pr1.png"
             description="A full-stack MERN web application for a cosmetic brand called Beauty Glow. The project includes a complete frontend and backend, containerized using Docker, and deployed on AWS. A CI/CD pipeline with GitHub Actions was implemented to automate testing, building, and deployment, ensuring smooth updates and reliable production releases."
             techStack={[
               "React",
