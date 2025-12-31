@@ -71,16 +71,10 @@ const Resume = () => {
             data-aos-delay="300"
           >
             <ResumeCard
-              Icon={FaSchool}
-              role="Ordinary Level"
-              date="Dec 2018"
-              description="Successfully completed Ordinary Level examinations in English medium with 8 As and 1 B "
-            />
-            <ResumeCard
-              Icon={FaChartLine}
-              role="Advanced Level"
-              date="Jan 2019 - Feb 2022"
-              description="Successfully completed Advanced Level examinations in the Mathematics stream with grades of 1 A, 1 B, and 1 C."
+              Icon={FaGraduationCap}
+              role="BComp(Hons.) in Software Engineering"
+              date="June 2023 - Present"
+              description="Currently pursuing a Bachelor of Computing (Hons.) in Software Engineering at the University of Sri Jayewardenepura."
             />
             <ResumeCard
               Icon={MdComputer}
@@ -89,10 +83,16 @@ const Resume = () => {
               description="Successfully completed the Assured Diploma in Information Technology (DITEC) at ESOFT Metro Campus."
             />
             <ResumeCard
-              Icon={FaGraduationCap}
-              role="BComp(Hons.) in Software Engineering"
-              date="June 2023 - Present"
-              description="Currently pursuing a Bachelor of Computing (Hons.) in Software Engineering at the University of Sri Jayewardenepura."
+              Icon={FaChartLine}
+              role="Advanced Level"
+              date="Jan 2019 - Feb 2022"
+              description="Successfully completed Advanced Level examinations in the Mathematics stream with grades of 1 A, 1 B, and 1 C."
+            />
+            <ResumeCard
+              Icon={FaSchool}
+              role="Ordinary Level"
+              date="Dec 2018"
+              description="Successfully completed Ordinary Level examinations in English medium with 8 As and 1 B "
             />
           </div>
         </div>
