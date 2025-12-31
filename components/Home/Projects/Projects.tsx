@@ -41,8 +41,16 @@ const Projects = () => {
           <ProjectCard
             title="Developer Portfolio Website using Next.js"
             image="/images/Pr2.png"
-            description="A personal developer portfolio website using Next.js, showcasing my skills, projects, and experience with a fast, responsive, and SEO-friendly interface."
-            techStack={["React", "Next.js", "TypeScript", "Tailwind CSS"]}
+            description="A personal developer portfolio built with Next.js and Tailwind CSS, deployed on AWS S3 and CloudFront with Namecheap domain management and a GitHub Actions–based CI/CD pipeline configured using AWS IAM. Showcases my projects skills and experience through a modern responsive design."
+            techStack={[
+              "React",
+              "Next.js",
+              "TypeScript",
+              "Tailwind CSS",
+              "AWS",
+              "GitHub Actions",
+              "Namecheap",
+            ]}
             githubUrl="https://github.com/VishishtaDilsara/dev-portfolio-nextjs.git"
           />
         </div>
