@@ -16,6 +16,13 @@ const Blog = () => {
         grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10"
       >
         <BlogCard
+          image="/images/b8.png"
+          title="AWS Architecture for a Next.js Portfolio Website"
+          date="01 Jan 2026"
+          stack={["AWS", "Architecture Diagrams", "Next.js", "Portfolio"]}
+          link="https://www.linkedin.com/posts/vishishta-dilsara-14059a348_portfolio-deployment-architecture-%E0%B6%85%E0%B6%AF-%E0%B6%9A%E0%B6%AD-activity-7412355704105185282-PvZK?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFbwmUABo_7_6hfkW56yyiirbG3SiLcV-7c"
+        />
+        <BlogCard
           image="/images/b7.jpg"
           title="AWS Architecture Diagrams: Icons and Tools Explained"
           date="24 Dec 2025"
