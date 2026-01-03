@@ -50,7 +50,7 @@ const Resume = () => {
             <ResumeCard
               Icon={FaAws}
               role="Cloud Engineer"
-              description="AWS Cloud Quest - Practitioner Badge &nbsp;|&nbsp; Aviatrix Multicloud Certified Badge"
+              description="AWS Cloud Quest - Practitioner Badge &nbsp;|&nbsp; Aviatrix Multicloud Certified Badge &nbsp;|&nbsp; FinOps Certified Practitioner Badge"
             />
             <ResumeCard
               Icon={FaCodeBranch}
