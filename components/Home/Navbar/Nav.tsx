@@ -52,7 +52,7 @@ const Nav = ({ openNav }: Props) => {
 
         <div className="flex items-center space-x-4">
           <a
-            href="/Vishishta_cv_4.pdf"
+            href="/Vishishta_cv_5.pdf"
             download
             className="px-6 py-2.5 border border-white text-white rounded-md
   hover:bg-cyan-300 hover:border-cyan-300 hover:text-black
