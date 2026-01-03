@@ -90,6 +90,19 @@ const Projects = () => {
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
+          data-aos-delay="300"
+        >
+          <ProjectCard
+            title="Fashion Item Classification System"
+            image="/images/Pr12.png"
+            description="Developed a fashion item classification system using a CNN model and implemented a simple Streamlit-based user interface, with Docker used for containerization to ensure consistent and portable deployment."
+            techStack={["Python", "Deep Learning", "CNN model", "Streamlit"]}
+            githubUrl="https://github.com/VishishtaDilsara/Fashion-DL-Streamlit.git"
+          />
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
           data-aos-delay="400"
         >
           <ProjectCard

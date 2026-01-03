@@ -16,6 +16,18 @@ const Blog = () => {
         grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10"
       >
         <BlogCard
+          image="/images/b9.png"
+          title="What is n8n and how to use it?"
+          date="02 Jan 2026"
+          stack={[
+            "n8n",
+            "Workflow Automation",
+            "Data Integration",
+            "Automation",
+          ]}
+          link="https://www.linkedin.com/posts/vishishta-dilsara-14059a348_%E0%B6%B8%E0%B6%9A%E0%B6%9A%E0%B6%AF-n8n-%E0%B6%9A%E0%B6%BA%E0%B6%B1%E0%B6%B1-nodemation-%E0%B6%91%E0%B7%84%E0%B6%B8-%E0%B6%B1%E0%B6%AD%E0%B6%B1%E0%B6%B8-activity-7412744087222538240-1lTx?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFbwmUABo_7_6hfkW56yyiirbG3SiLcV-7c"
+        />
+        <BlogCard
           image="/images/b8.png"
           title="AWS Architecture for a Next.js Portfolio Website"
           date="01 Jan 2026"
