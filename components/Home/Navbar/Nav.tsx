@@ -51,6 +51,7 @@ const Nav = ({ openNav }: Props) => {
         </div>
 
         <div className="flex items-center space-x-4">
+          {/** Download CV */}
           <a
             href="/Vishishta_cv_5.pdf"
             download
