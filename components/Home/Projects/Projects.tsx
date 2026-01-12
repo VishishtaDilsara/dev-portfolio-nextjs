@@ -36,6 +36,29 @@ const Projects = () => {
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
+          data-aos-delay="0"
+        >
+          <ProjectCard
+            title="ThumbClick – AI-Powered Thumbnail Generator"
+            image="/images/Pr13.png"
+            description="Designed and developed a full-stack MERN-based AI thumbnail generator that allows users to create, preview, download, delete, and manage YouTube-formatted thumbnails with secure, middleware-based authentication and history management. AI image generation was implemented using the A4F API with the FLUX-Schnell model , and both frontend and backend were deployed on Vercel."
+            techStack={[
+              "React",
+              "Node.js",
+              "MongoDB",
+              "Express.js",
+              "Cloudinary",
+              "Vercel",
+              "A4F API",
+              "Flux-Schnell",
+            ]}
+            githubUrl="https://github.com/VishishtaDilsara/ThumbClick.git"
+            demoUrl="https://thumbclick.vercel.app/"
+          />
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
           data-aos-delay="100"
         >
           <ProjectCard
