@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
+//Projects sections
+
 const Projects = () => {
   return (
     <section id="projects" className="scroll-mt-[12vh] pt-16 pb-16">
