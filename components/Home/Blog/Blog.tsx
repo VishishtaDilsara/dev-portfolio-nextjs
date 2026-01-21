@@ -16,6 +16,20 @@ const Blog = () => {
         grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10"
       >
         <BlogCard
+          image="/images/b11.png"
+          title="What is AWS EC2?"
+          date="17 Jan 2026"
+          stack={["AWS", "EC2", "Virtual Machines", "Cloud Computing"]}
+          link="https://medium.com/@vishishtadilsara2002/what-is-aws-ec2-e66de1298cd3"
+        />
+        <BlogCard
+          image="/images/b10.png"
+          title="How Does AWS IAM Actually Work?"
+          date="13 Jan 2026"
+          stack={["AWS", "IAM", "AWS Policies", "IAM Roles"]}
+          link="https://medium.com/@vishishtadilsara2002/how-does-aws-iam-actually-work-4c11a493f469"
+        />
+        <BlogCard
           image="/images/b9.png"
           title="What is n8n and how to use it?"
           date="02 Jan 2026"
