@@ -16,6 +16,13 @@ const Blog = () => {
         grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10"
       >
         <BlogCard
+          image="/images/b12.png"
+          title="EBS Volume in AWS"
+          date="23 Jan 2026"
+          stack={["AWS", "EBS", "EBS Volumes", "Snapshots", "AWS Storage"]}
+          link="https://medium.com/@vishishtadilsara2002/ebs-volume-in-aws-8ad727ea1d63"
+        />
+        <BlogCard
           image="/images/b11.png"
           title="What is AWS EC2?"
           date="17 Jan 2026"
