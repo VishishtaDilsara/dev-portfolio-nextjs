@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaArrowRight, FaLinkedin } from "react-icons/fa";
+import { FaArrowRight, FaLinkedin, FaPen } from "react-icons/fa";
 
 type Props = {
   image: string;
@@ -61,7 +61,7 @@ const BlogCard = ({ image, title, date, stack, link }: Props) => {
             className="group flex items-center justify-between text-cyan-400 text-sm font-medium"
           >
             <div className="flex items-center gap-3">
-              <FaLinkedin className="w-4 h-4" />
+              <FaPen className="w-4 h-4" />
               <span className="tracking-wide">Read article</span>
             </div>
 
