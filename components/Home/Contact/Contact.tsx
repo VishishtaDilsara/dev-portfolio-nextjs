@@ -153,7 +153,7 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Right Side - Contact Form */}
+        {/* Right Side - Contact Form for clients */}
         <div
           className="md:p-10 p-5 bg-[#131332] rounded-lg"
           data-aos="zoom-in"
