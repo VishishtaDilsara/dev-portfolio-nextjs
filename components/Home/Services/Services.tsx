@@ -10,6 +10,14 @@ const Services = () => {
       </h1>
 
       <div className="w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20 items-stretch">
+        <div data-aos="flip-right" data-aos-delay="400" className="h-full">
+          <ServiceCard
+            icon="/images/s4.png"
+            name="Development"
+            description="Developing scalable and maintainable solutions using modern development practices"
+          />
+        </div>
+
         <div data-aos="flip-right" className="h-full">
           <ServiceCard
             icon="/images/s1.png"
@@ -31,14 +39,6 @@ const Services = () => {
             icon="/images/s3.png"
             name="Design & Creativity"
             description="Creating visually engaging designs that communicate ideas clearly and effectively"
-          />
-        </div>
-
-        <div data-aos="flip-right" data-aos-delay="400" className="h-full">
-          <ServiceCard
-            icon="/images/s4.png"
-            name="Development"
-            description="Developing scalable and maintainable solutions using modern development practices"
           />
         </div>
       </div>
