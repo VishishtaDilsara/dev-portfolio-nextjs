@@ -18,19 +18,19 @@ const Services = () => {
           />
         </div>
 
-        <div data-aos="flip-right" className="h-full">
-          <ServiceCard
-            icon="/images/s1.png"
-            name="UI and UX"
-            description="Designing intuitive interfaces that focus on clarity, usability, and user satisfaction"
-          />
-        </div>
-
         <div data-aos="flip-right" data-aos-delay="200" className="h-full">
           <ServiceCard
             icon="/images/s2.png"
             name="Web and Mobile App"
             description="Building responsive web and mobile applications with performance and usability in mind"
+          />
+        </div>
+
+        <div data-aos="flip-right" className="h-full">
+          <ServiceCard
+            icon="/images/s1.png"
+            name="UI and UX"
+            description="Designing intuitive interfaces that focus on clarity, usability, and user satisfaction"
           />
         </div>
 
