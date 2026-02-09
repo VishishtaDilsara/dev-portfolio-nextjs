@@ -160,6 +160,7 @@ const Contact = () => {
           data-aos-anchor-placement="top-center"
           data-aos-delay="0"
         >
+          {/* Name*/}
           <input
             type="text"
             placeholder="Name"
@@ -168,6 +169,7 @@ const Contact = () => {
             className="px-4 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
           />
 
+          {/* Email*/}
           <input
             type="email"
             placeholder="Email Address"
@@ -176,6 +178,7 @@ const Contact = () => {
             className="px-4 py-3.5 bg-[#363659] mt-6 text-white outline-none rounded-md w-full placeholder:text-white/70"
           />
 
+          {/* Mobile*/}
           <input
             type="text"
             placeholder="Mobile Number"
@@ -184,6 +187,7 @@ const Contact = () => {
             className="px-4 py-3.5 bg-[#363659] mt-6 text-white outline-none rounded-md w-full placeholder:text-white/70"
           />
 
+          {/* Message*/}
           <textarea
             placeholder="Your Message"
             value={message}
