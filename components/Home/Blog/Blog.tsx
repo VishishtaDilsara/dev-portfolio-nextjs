@@ -23,6 +23,20 @@ const Blog = () => {
           link="https://medium.com/@vishishtadilsara2002/ebs-volume-in-aws-8ad727ea1d63"
         />
         <BlogCard
+          image="/images/b13.png"
+          title="Solution for Netflix Household issue using n8n"
+          date="21 Mar 2026"
+          stack={["n8n", "Netflix", "Automation", "Puppeteer", "NodeMation"]}
+          link="https://medium.com/@vishishtadilsara2002/solution-for-netflix-household-issue-using-n8n-22e914fba525"
+        />
+        <BlogCard
+          image="/images/b12.png"
+          title="EBS Volume in AWS"
+          date="23 Jan 2026"
+          stack={["AWS", "EBS", "EBS Volumes", "Snapshots", "AWS Storage"]}
+          link="https://medium.com/@vishishtadilsara2002/ebs-volume-in-aws-8ad727ea1d63"
+        />
+        <BlogCard
           image="/images/b11.png"
           title="What is AWS EC2?"
           date="17 Jan 2026"
