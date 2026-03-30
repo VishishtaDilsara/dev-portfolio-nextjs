@@ -16,11 +16,17 @@ const Blog = () => {
         grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10"
       >
         <BlogCard
-          image="/images/b12.png"
-          title="EBS Volume in AWS"
-          date="23 Jan 2026"
-          stack={["AWS", "EBS", "EBS Volumes", "Snapshots", "AWS Storage"]}
-          link="https://medium.com/@vishishtadilsara2002/ebs-volume-in-aws-8ad727ea1d63"
+          image="/images/b14.png"
+          title="Deploy Vprofile Project Manually"
+          date="28 Mar 2026"
+          stack={[
+            "MultiVM",
+            "DevOps",
+            "Vprofile",
+            "Manual Deployment",
+            "Vagrantfile",
+          ]}
+          link="https://medium.com/@vishishtadilsara2002/deploy-vprofile-project-manually-920c3176598f"
         />
         <BlogCard
           image="/images/b13.png"
