@@ -19,7 +19,7 @@ const Projects = () => {
         >
           <ProjectCard
             title="Netflix Household Issue Automation"
-            image="/images/Pr14.png"
+            image="/images/pr14.png"
             description="Developed an automated solution to handle Netflix household update requests by processing incoming emails and triggering the required update actions. Implemented browser automation using Puppeteer to simulate user interactions and automatically confirm household updates, eliminating manual effort. The backend API was deployed on Render to ensure reliable hosting and continuous operation."
             techStack={["n8n", "Netflix", "Puppeteer", "Render", "Automation"]}
             demoUrl="https://medium.com/@vishishtadilsara2002/solution-for-netflix-household-issue-using-n8n-22e914fba525"
