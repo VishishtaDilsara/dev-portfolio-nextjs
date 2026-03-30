@@ -18,6 +18,19 @@ const Projects = () => {
           data-aos-delay="0"
         >
           <ProjectCard
+            title="Netflix Household Issue Automation"
+            image="/images/Pr14.png"
+            description="Developed an automated solution to handle Netflix household update requests by processing incoming emails and triggering the required update actions. Implemented browser automation using Puppeteer to simulate user interactions and automatically confirm household updates, eliminating manual effort. The backend API was deployed on Render to ensure reliable hosting and continuous operation."
+            techStack={["n8n", "Netflix", "Puppeteer", "Render", "Automation"]}
+            demoUrl="https://medium.com/@vishishtadilsara2002/solution-for-netflix-household-issue-using-n8n-22e914fba525"
+          />
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="0"
+        >
+          <ProjectCard
             title="Full-Stack MERN E-Commerce Platform for Beauty Glow"
             image="/images/Pr1.png"
             description="A full-stack MERN web application for a cosmetic brand called Beauty Glow. The project includes a complete frontend and backend, containerized using Docker, and deployed on AWS. A CI/CD pipeline with GitHub Actions was implemented to automate testing, building, and deployment, ensuring smooth updates and reliable production releases."
